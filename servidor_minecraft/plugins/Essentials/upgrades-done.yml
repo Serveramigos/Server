@@ -12,3 +12,5 @@ updateUsersStupidLegacyPathNames: true
 updateUsersMailList: true
 updatePurgeBrokenNpcAccounts: true
 updateRandomTeleport: true
+movemotdToFile: true
+moverulesToFile: true
