@@ -1,0 +1,9 @@
+schedules:
+  world:
+    days: 5
+    chance: 100.0
+    broadcast: true
+    days-left-message: '&fin &e%days-left% &fdays there will be a possible bloodmoon!'
+    tonight-message: '&fThere is a &e%chance%% &fchance that Tonight will be a bloodmoon!'
+    random-days: true
+    repeating: true

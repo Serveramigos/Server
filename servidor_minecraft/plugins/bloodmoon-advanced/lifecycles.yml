@@ -1,0 +1,24 @@
+# Docs: https://bloodmoon.pseudonova.com/lifecycles/introduction
+cycles:
+  superboss:
+    actions:
+      - strike-lightning 100 0 100 3
+      - death 100 0 0.1 1
+      - reinforcements 80 0 20 10
+  firewarden:
+    actions:
+      - reinforcements 30 0 20 2
+      - firewarden-messages 100 0 40 20
+      - shadow-attack 50 0 30 1
+  magician:
+    actions:
+      - teleport-spell 100 0 40 20
+      - reinforcement-spell 30 0 60 1
+      - swap-spell 100 0 50 10
+      - blast-spell 50 0 60 10
+      - lightning-spell 20 0 50 1
+  reinforced-creeper:
+    actions:
+      - fuse 100 0 50 2
+    death:
+      - strike-lightning 100

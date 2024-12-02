@@ -1,0 +1,11 @@
+# For internal storage use only, do not modify.
+
+legacy-data-migrated: true
+previous-handler: yaml
+player:
+  343fb479-c22f-316e-a665-dea3a7ee2b1a:
+    talismans:talisman_bag: []
+    eco:player_name: §4alexisromors§r
+  00000000-0000-0000-0000-000000000000:
+    eco:local_server_id: 97a62337-25d1-45f8-94ba-c596bcf5bbd0
+

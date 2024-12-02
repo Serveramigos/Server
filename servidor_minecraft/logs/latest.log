@@ -1,0 +1,354 @@
+[00:38:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:38:54] [ServerMain/INFO]: Loaded 7 recipes
+[00:38:55] [Server thread/INFO]: Starting minecraft server version 1.20
+[00:38:55] [Server thread/INFO]: Loading properties
+[00:38:55] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[00:38:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:38:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:38:55] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[00:38:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[00:38:55] [Server thread/INFO]: Default game type: SURVIVAL
+[00:38:55] [Server thread/INFO]: Generating keypair
+[00:38:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:38:55] [Server thread/INFO]: Using epoll channel type
+[00:38:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:38:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[00:38:56] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[00:38:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[00:38:56] [Server thread/ERROR]: Fatal error trying to convert ModelEngine vR4.0.7:com/ticxo/modelengine/core/ModelEngine.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.4.jar:9.4]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.4.jar:9.4]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.4.jar:9.4]
+	at org.bukkit.craftbukkit.v1_20_R1.util.Commodore.convert(Commodore.java:171) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:403) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:206) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[00:38:56] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'ModelEngine-4.0.7F.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/ticxo/modelengine/core/ModelEngine has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/ticxo/modelengine/core/ModelEngine has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:229) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.jar:git-Paper-17]
+	... 9 more
+[00:38:57] [Server thread/INFO]: [eco] Initializing eco
+[00:38:57] [Server thread/ERROR]: Fatal error trying to convert Chunky v1.4.28:org/popcraft/chunky/ChunkyBukkit.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.4.jar:9.4]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.4.jar:9.4]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.4.jar:9.4]
+	at org.bukkit.craftbukkit.v1_20_R1.util.Commodore.convert(Commodore.java:171) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:403) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:206) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[00:38:57] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky-Bukkit-1.4.28.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:229) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.jar:git-Paper-17]
+	... 9 more
+[00:38:57] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[00:38:57] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[00:39:01] [Server thread/WARN]: Legacy plugin TNTAlert v1.0 does not specify an api-version.
+[00:39:01] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[00:39:01] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[00:39:02] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[00:39:02] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[00:39:02] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[00:39:02] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
+[00:39:02] [Server thread/INFO]: [Matrix] Loading server plugin Matrix v7.4.18
+[00:39:02] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
+[00:39:02] [Server thread/INFO]: [eco] Loading server plugin eco v6.74.3
+[00:39:02] [Server thread/INFO]: [bloodmoon-advanced] Loading server plugin bloodmoon-advanced v4.5.7
+[00:39:02] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.1.11
+[00:39:02] [Server thread/INFO]: [EliteMobs] MagmaCore v1.0 initialized!
+[00:39:02] [Server thread/INFO]: [EliteMobs] Sanity check!
+[00:39:02] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[00:39:02] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[00:39:02] [Server thread/INFO]: [Elevators] Loading server plugin Elevators v4.0.18
+[00:39:02] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.31.4-T20240629215752
+[00:39:02] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
+[00:39:02] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[00:39:02] [Server thread/INFO]: [Elevator] Loading server plugin Elevator v3.13.0
+[00:39:02] [Server thread/INFO]: [TNTAlert] Loading server plugin TNTAlert v1.0
+[00:39:02] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.1.3
+[00:39:02] [Server thread/INFO]: [CombatWeaponryPlus] Loading server plugin CombatWeaponryPlus v1.5.7
+[00:39:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:39:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[00:39:02] [Server thread/INFO]:         __    
+[00:39:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[00:39:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:39:02] [Server thread/INFO]: 
+[00:39:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:39:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:39:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:39:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:39:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1434ms)
+[00:39:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[00:39:03] [Server thread/INFO]: [eco] Enabling eco v6.74.3
+[00:39:03] [Server thread/INFO]: [eco] Loading eco
+[00:39:03] [Server thread/INFO]: [eco] Loaded integrations: Matrix, MythicMobs, Essentials
+[00:39:03] [Server thread/INFO]: [eco] Scanning for conflicts...
+[00:39:03] [Server thread/INFO]: [eco] No conflicts found!
+[00:39:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:39:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:39:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:39:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:39:03] [Server thread/INFO]: Preparing level "world"
+[00:39:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:39:04] [Server thread/INFO]: Time elapsed: 317 ms
+[00:39:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:39:04] [Server thread/INFO]: Time elapsed: 169 ms
+[00:39:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:39:04] [Server thread/INFO]: Time elapsed: 89 ms
+[00:39:04] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[00:39:05] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
+[00:39:05] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[00:39:07] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
+[00:39:07] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Server/servidor_minecraft/plugins/MythicMobs/data
+[00:39:07] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Server/servidor_minecraft/plugins/MythicMobs/data/worlds
+[00:39:10] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[00:39:10] [Server thread/INFO]: [MythicMobs] Loading Items...
+[00:39:11] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[00:39:11] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[00:39:11] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[00:39:11] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[00:39:11] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[00:39:11] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[00:39:11] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[00:39:11] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[00:39:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
+[00:39:11] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:39:11] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:39:11] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:39:12] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[00:39:12] [Server thread/INFO]: [Essentials] Using locale en
+[00:39:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:39:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:39:12] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[00:39:12] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[00:39:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:39:12] [Server thread/INFO]: [Matrix] Enabling Matrix v7.4.18
+[00:39:12] [Server thread/INFO]: [Matrix] [STDOUT] [Spigotunlocked.com] - Wqfire
+[00:39:12] [Server thread/WARN]: Nag author(s): '[RE]' of 'Matrix v7.4.18' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[00:39:12] [Server thread/INFO]: *   __  __       _        _
+[00:39:12] [Server thread/INFO]: *  |  \/  |     | |      (_)
+[00:39:12] [Server thread/INFO]: *  | \  / | __ _| |_ _ __ ___  __
+[00:39:12] [Server thread/INFO]: *  | |\/| |/ _` | __| '__| \ \/ /
+[00:39:12] [Server thread/INFO]: *  | |  | | (_| | |_| |  | |>  <
+[00:39:12] [Server thread/INFO]: *  |_|  |_|\__,_|\__|_|  |_/_/\_\
+[00:39:12] [Server thread/INFO]: *  
+[00:39:12] [Server thread/INFO]: *  Cracked by LuckerCracker
+[00:39:12] [Server thread/INFO]: * Matrix AntiCheat v7.4.18 | git-Paper-17 (MC: 1.20)
+[00:39:12] [Server thread/INFO]: [Matrix] Checking Environment...
+[00:39:12] [Server thread/INFO]: [Matrix] Passed all environment checks
+[00:39:13] [Server thread/INFO]: [Matrix] Loaded 0 global placeholders
+[00:39:13] [Server thread/INFO]: [Matrix] Enabled 15 checks, Disabled 0 checks
+[00:39:13] [Server thread/INFO]: [Matrix] Loaded all configuration files
+[00:39:13] [Server thread/INFO]: [Matrix] Scanning outdated log files....
+[00:39:13] [Server thread/INFO]: [Matrix] Deleted 0 outdated log files!
+[00:39:13] [Server thread/INFO]: [Matrix] Welcome to Matrix!
+[00:39:13] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
+[00:39:13] [Server thread/INFO]: [bloodmoon-advanced] Enabling bloodmoon-advanced v4.5.7
+[00:39:14] [Server thread/INFO]: [bloodmoon-advanced] plugin registered for user 23310 with nonce -896557144
+[00:39:14] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.1.11
+[00:39:14] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[00:39:14] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[00:39:14] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[00:39:14] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[00:39:14] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[00:39:14] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[00:39:14] [Server thread/INFO]: By MagmaGuy - v. 9.1.11
+[00:39:14] [Server thread/WARN]: [EliteMobs] You are running a Minecraft version older than 1.21.0! EliteMobs 9.0 and later are only compatible with Minecraft 1.21.0 or later, if you are running an older Minecraft version you will need to use a pre-9.0 version of EliteMobs.
+[00:39:14] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.1.11
+[00:39:14] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[00:39:14] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[00:39:14] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[00:39:14] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[00:39:14] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[00:39:14] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[00:39:14] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[00:39:14] [Server thread/INFO]: [Elevators] Enabling Elevators v4.0.18
+[00:39:14] [Server thread/WARN]: [Elevators] V120R1NMS
+[00:39:14] [Server thread/WARN]: java.lang.ClassNotFoundException: com.cultivatemc.elevators.nms.V120R1NMS
+[00:39:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
+[00:39:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[00:39:14] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[00:39:14] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[00:39:14] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[00:39:14] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.objects.BaseElevators.<init>(BaseElevators.java:100)
+[00:39:14] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Elevators.<init>(Elevators.java:18)
+[00:39:14] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[00:39:14] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[00:39:14] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[00:39:14] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[00:39:14] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+[00:39:14] [Server thread/WARN]: 	at ElevatorsFree.jar//com.cultivatemc.elevators.Main.onEnable(Main.java:20)
+[00:39:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[00:39:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[00:39:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[00:39:14] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[00:39:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:562)
+[00:39:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:473)
+[00:39:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
+[00:39:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
+[00:39:14] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
+[00:39:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
+[00:39:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[00:39:14] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:39:14] [Server thread/WARN]: [Elevators] This version of elevators does not support your servers current version! Some functions may not work as intended! Check the resource page for updates.
+[00:39:14] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[00:39:14] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[00:39:14] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[00:39:14] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[00:39:14] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[00:39:14] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[00:39:14] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[00:39:14] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[00:39:14] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[00:39:14] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[00:39:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[00:39:14] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:39:14] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[00:39:15] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[00:39:15] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[00:39:15] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[00:39:15] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[00:39:15] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 20 ms
+[00:39:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[00:39:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[00:39:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[00:39:15] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[00:39:15] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[00:39:16] [Server thread/INFO]: [Elevator] Enabling Elevator v3.13.0
+[00:39:16] [Server thread/INFO]: [TNTAlert] Enabling TNTAlert v1.0*
+[00:39:16] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.1.3
+[00:39:16] [Server thread/WARN]: [OpenInv] Your server version (1.20) is not supported.
+[00:39:16] [Server thread/WARN]: [OpenInv] Please download the correct version of OpenInv here: https://github.com/Jikoo/OpenInv/releases/tag/4.4.1
+[00:39:16] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.5.7
+[00:39:16] [Server thread/INFO]: Running delayed init tasks
+[00:39:16] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:39:16] [Craft Scheduler Thread - 4 - Matrix/INFO]: [Matrix] Successfully fetched your license.
+[00:39:16] [Craft Scheduler Thread - 5 - Matrix/INFO]: [Matrix] Start checking update....
+[00:39:16] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
+[00:39:16] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[00:39:17] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[00:39:17] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[00:39:17] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:39:17] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[00:39:17] [Server thread/INFO]: Done (22.019s)! For help, type "help"
+[00:39:17] [Server thread/INFO]: Timings Reset
+[00:39:17] [Server thread/INFO]: [eco] Loaded eco
+[00:39:17] [Craft Scheduler Thread - 5 - Matrix/INFO]: | There is a new version of Matrix available! (7.11.12)
+[00:39:17] [Craft Scheduler Thread - 5 - Matrix/INFO]: | * Fixed a rare console NPE error
+[00:39:17] [Craft Scheduler Thread - 5 - Matrix/INFO]: | You can download it by using /matrix update

@@ -1,0 +1,65 @@
+# Docs: https://bloodmoon.pseudonova.com/actions/introduction
+actions:
+  strike-lightning:
+    events:
+      - lightning 6 10
+    commands: []
+  swap-spell:
+    events:
+      - swap 100
+      - speak &3Secra astafa perdu! 100
+    commands: []
+  blast-spell:
+    events:
+      - dash 100
+      - speak &7Karanta segrum dia! 100
+    commands: []
+  teleport-spell:
+    events:
+      - teleport 8 100
+      - speak &6Parendum potrokaratia! 100
+    commands: []
+  lightning-spell:
+    events:
+      - lightning 10 100
+      - speak &c&lActaram Strikera! 100
+
+  reinforcements:
+    events:
+      - reinforcements ZOMBIE 10 2 30
+      - reinforcements blazing-cube 10 2 30
+      - speak &c&lI need help over here! 100
+    commands: []
+  witch-reinforcements:
+    events:
+      - reinforcements WITCH 10 2 100
+      - speak &5Kardipo septum crea 100
+    commands: []
+  potion:
+    events:
+      - potion-effect blindness 20 2 50
+      - potion-effect hunger 20 1 50
+      - potion-effect confusion 10 5 50
+      - potion-effect jump 15 4 50
+    commands: []
+  firewarden-messages:
+    events:
+      - speak You &4fool! &fYou don't get me! 20
+      - speak Did you ever taste a burned skin? 10
+      - speak &4&lKAPOW! 20
+      - speak I would love to see people like you in the nether! 20
+    commands: []
+  death:
+    events:
+      - instant-kill 100
+      - speak How is it even possible?! 100
+    commands: []
+  shadow-attack:
+    events:
+      - potion-effect blindness 20 2 100
+      - speak Let's see how well you do in the &5shadows ... 100
+    commands: []
+  fuse:
+    events:
+      - speak &atttssss 100
+    commands: []

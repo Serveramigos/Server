@@ -1,0 +1,204 @@
+# This is the bloodmoon config file. Make sure you use the correct format for the correct properties
+# If at any moment, you believe you broke the config, remove it and reconfigure it.
+# Authors: MrGeneralQ, PandaCrafter1
+# For a detailed config version please check our wiki: https://bloodmoon.mrgeneralq.net/
+
+# DO NOT REMOVE OR TOUCH THIS VALUE. THIS IS THE CONFIG VERSION, NOT THE PLUGIN VERSION
+version: "3.5"
+
+# set to false if you want to disable the update checker
+#IMPORTANT we only provide support for the latest version
+update-checker-enabled: true
+
+# A list of all worlds that are enabled for the bloodmoon.
+enabled-worlds:
+  - world
+
+# if set to true, players will not be able to use portals during the bloodmoon
+block-portal: true
+
+# if set to true, players cannot go to sleep during blood moon events
+block-sleeping: true
+
+# if change-difficulty is set to true, the difficulty will change when the bloodmoon runs
+# possible values easy|normal|hard|peaceful
+change-difficulty: true
+difficulty: 'hard'
+
+# percentage when harvesting crops will result in a failure
+harvest-failure-chance: 50.0
+
+# whenever there is a thunderstorm, the percentage specified will redirect the lightning to any player in the world
+lightning-strike-player-chance: 20.0
+
+# if the player does not get striked by a lightning, what is the chance that it strikes near the player
+lightning-near-hit-percentage: 50.0
+
+# amount of mobs that can spawn in one chunk (Bukkit default is 70)
+monster-spawn-limit: 160
+
+# When paths is enabled you will be able to use an item to show the path to the bosses location.
+# If compass is on 'true', it will point to the location of the boss
+paths:
+  enabled: true
+  compass: true
+  delay: 5
+  material: 'COMPASS'
+
+# Run a series of actions when the bloodmoon is started or begins
+start-actions:
+  title:
+    enabled: true
+    title: "&4Bloodmoon started"
+    subtitle: "Be aware!"
+  commands:
+    enabled: true
+    commands:
+      - bloodmoon say The bloodmoon is rising!
+  sound:
+    enabled: true
+    start-sound: ENTITY_ENDER_DRAGON_DEATH
+
+
+
+# Run a series of actions when the bloodmoon is stopped or ends
+stop-actions:
+  title:
+    enabled: true
+    title: "&aBloodmoon stopped"
+    subtitle: "No more crazy stuff"
+  commands:
+    enabled: true
+    commands:
+      - bloodmoon say The sun is rising, the spirit of the moon is fading away ...
+  sound:
+    enabled: true
+    stop-sound: UI_TOAST_CHALLENGE_COMPLETE
+
+
+# choose to play a sound when the mobs are getting removed after the bloodmoon
+# make sure to use correct sound names and effects
+# spigot particles: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+# spigot sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+
+
+# show a bossbar during the bloodmooon
+bossbar:
+  enabled: true
+  title: "Bloodmoon"
+  fog: true
+  dark: true
+
+mob-despawn-effect:
+  play-sound:
+    enabled: true
+    sound: ENTITY_WITHER_DEATH
+  play-particle:
+    enabled: true
+    particle: "SPELL_MOB"
+
+
+#configure the amount of ticks when the plugin considers it night or day
+time:
+  night-start: 12500
+  night-end: 23500
+
+#during the bloodmoon, play a series of scary sounds to make it even more scary
+scary-sounds:
+  enabled: true
+  sounds:
+    - AMBIENT_CAVE
+
+
+# when a bloodmoon is scheduled either by command or automatically, if bell warning is enabled, you can make a bell
+# ring far away from the players, as if a churge is alerting the players for the upcoming bloodmoon
+# the count is representing how many times the bell should ring
+# NOTE: a headset might be required in order to experience the full effect
+bell-warning:
+  enabled: true
+  count: 6
+  sound: BLOCK_BELL_USE
+
+# if you want you can apply a custom resource pack when the bloodmoon is rising
+# for the url-enabled, put the official bloodmoon zip file
+# for the url-disabled: put any empty zip file as this would force back to the old resource pack
+resource-pack:
+  enabled: false
+  url-enabled: "http://dl.dvrm.it/Uploads/Bloodmoon.zip"
+  url-disabled: "http://dl.dvrm.it/Uploads/normal.zip"
+
+# specifiy for each block which mob will spawn and the percentage
+mob-in-block:
+  enabled: true
+  blocks:
+    STONE:
+      percentage: 10.0
+      mob: "SILVERFISH"
+    MAGMA_BLOCK:
+      percentage: 100.0
+      mob: "MAGMA_CUBE"
+
+# specify a list of all mobs that will not be replaced upon spawn by a random bloodmoon mob. This are typically mobs
+# used for farming
+# non hostile mobs are excluded by default
+excluded-mobs:
+  - GUARDIAN
+  - ELDER_GUARDIAN
+  - ENDER_DRAGON
+  - ENDERMAN
+
+# You can disable some spawn types. When it's set to true it won't change the mob into a bloodmoon mob.
+excluded-spawn-methods:
+  natural: false
+  eggs: false
+  spawners: true
+  iron-golem: true
+  snowman: true
+  wither: true
+  breeding: true
+  bees: true
+
+# Settings when and if a boss should spawn
+boss:
+  enabled: true
+  chance: 50.0
+  bossbar: true
+
+
+# Define a list of commands to be blocked during a bloodmoon
+blocked-commands:
+  - tpa
+  - spawn
+  - home
+  - save-all
+
+# A list of actions that occur when a player dies during a bloodmoon
+death-actions:
+  lose-xp:
+    chance: 0.0
+  clear-inventory:
+    chance: 0.0
+  commands:
+    - say %player% got killed during a bloodmoon!
+
+# All settings regarding custom spawning
+spawning:
+  enabled: false
+  min-radius: 20
+  max-radius: 80
+  mobs-per-chunk: 20
+
+# All settings related to lifecycles
+# mob-progress: when set to true, lifecycles will also progress when the target is getting damaged
+lifecycles:
+  mob-progress: true
+
+# All settings related to nights
+# longer: night will be longer based on the boost percentage
+# darker: players will get randomly a blindness effect
+nights:
+  longer: false
+  boost-percentage: 20.0
+  darker: false
+  darker-percentage: 50.0
+  darker-duration: 2

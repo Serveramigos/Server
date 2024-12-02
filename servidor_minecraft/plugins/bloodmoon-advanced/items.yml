@@ -1,0 +1,14 @@
+# Docs: https://bloodmoon.pseudonova.com/items/introduction
+# Enchantments: https://www.digminecraft.com/lists/enchantment_list_pc.php
+# Items: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# Format: {item}:{damage} {amount} [name:{}, lore:{}, owner:{}, rgb:{}] [{enchantment}:{level}]
+items:
+  helmet: "DIAMOND_HELMET:0 1 protection:4 thorns:3"
+  chestplate: "DIAMOND_CHESTPLATE:0 1 protection:4 thorns:3"
+  leggings: "DIAMOND_LEGGINGS:0 1 protection:4 thorns:3"
+  boots: "DIAMOND_BOOTS:0 1 protection:4 thorns:3"
+  zombie-sword: "DIAMOND_SWORD:0 1 sharpness:5 fire_aspect:2"
+  bow: "BOW:0 1 power:5"
+  skelly-chestplate: "GOLDEN_CHESTPLATE:0 1 protection:4 thorns:3"
+  wither-sword: "GOLDEN_SWORD:0 1 sharpness:2"
+  super-stick: "STICK:0 sharpness:5"
